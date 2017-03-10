@@ -1,0 +1,10 @@
+c:\users\dell\documents\visual studio 2013\Projects\AutomationTest\AutomationTest\bin\Debug\AutomationTest.dll
+c:\users\dell\documents\visual studio 2013\Projects\AutomationTest\AutomationTest\bin\Debug\AutomationTest.pdb
+c:\users\dell\documents\visual studio 2013\Projects\AutomationTest\AutomationTest\obj\Debug\AutomationTest.csprojResolveAssemblyReference.cache
+c:\users\dell\documents\visual studio 2013\Projects\AutomationTest\AutomationTest\obj\Debug\AutomationTest.dll
+c:\users\dell\documents\visual studio 2013\Projects\AutomationTest\AutomationTest\obj\Debug\AutomationTest.pdb
+C:\Users\Dell\Desktop\AutomationTest\AutomationTest\bin\Debug\AutomationTest.dll
+C:\Users\Dell\Desktop\AutomationTest\AutomationTest\bin\Debug\AutomationTest.pdb
+C:\Users\Dell\Desktop\AutomationTest\AutomationTest\obj\Debug\AutomationTest.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Desktop\AutomationTest\AutomationTest\obj\Debug\AutomationTest.dll
+C:\Users\Dell\Desktop\AutomationTest\AutomationTest\obj\Debug\AutomationTest.pdb

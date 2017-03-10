@@ -1,0 +1,3570 @@
+<?xml version="1.0"?>
+<UITest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="" Id="379714c1-cd0b-4b3e-85f3-ffded98a55f5" AssemblyVersion="12.0.21005.1" Version="1.0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamTest/UITest/2010">
+  <Configuration>
+    <Group Name="IE">
+      <Setting Name="Version" Value="9.11.9600.16384" WarningLevel="1" />
+      <Setting Name="InformationBar" WarningLevel="1" />
+      <Setting Name="AutoCompletePassword" WarningLevel="1" />
+      <Setting Name="AutoCompleteForm" WarningLevel="1" />
+      <Setting Name="DefaultBrowser" Value="IEXPLORE.EXE" WarningLevel="1" />
+      <Setting Name="PopupBlocker" Value="yes" WarningLevel="1" />
+      <Setting Name="TabbedBrowsing" WarningLevel="2" />
+      <Setting Name="InternetZoneSecurity" Value="66816" WarningLevel="2" />
+      <Setting Name="IntranetZoneSecurity" Value="69632" WarningLevel="2" />
+      <Setting Name="TrustedZoneSecurity" Value="70912" WarningLevel="2" />
+      <Setting Name="RestrictedZoneSecurity" Value="73728" WarningLevel="2" />
+      <Setting Name="PhishingFilter" WarningLevel="1" />
+      <Setting Name="EnhancedSecurityConfiguration" WarningLevel="1" />
+    </Group>
+    <Group Name="OS">
+      <Setting Name="Name" Value="Microsoft Windows 8.1 Pro" WarningLevel="2" />
+      <Setting Name="Version" Value="Microsoft Windows NT 6.3.9600.0" WarningLevel="2" />
+      <Setting Name="IsUserAdmin" Value="False" WarningLevel="2" />
+      <Setting Name="Is64BitOperatingSystem" Value="True" WarningLevel="2" />
+      <Setting Name="IsTerminalServerSession" Value="False" WarningLevel="2" />
+      <Setting Name="OSLanguage" Value="1033" WarningLevel="1" />
+      <Setting Name="UserLocale" Value="1033" WarningLevel="1" />
+      <Setting Name="DragFullWindows" Value="True" WarningLevel="2" />
+      <Setting Name="ScreenResolutionWidth" Value="1366" WarningLevel="2" />
+      <Setting Name="ScreenResolutionHeight" Value="768" WarningLevel="2" />
+      <Setting Name="SystemDPIX" Value="96" WarningLevel="2" />
+      <Setting Name="SystemDPIY" Value="96" WarningLevel="2" />
+      <Setting Name="Aero" Value="1" WarningLevel="1" />
+      <Setting Name="UACEnabled" Value="1" WarningLevel="2" />
+      <Setting Name="UACPromptEnabled" Value="5" WarningLevel="1" />
+    </Group>
+    <Group Name="TechnologyManagers">
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="Web" WarningLevel="1" />
+      <Setting Name="UIA" WarningLevel="1" />
+      <Setting Name="DevExpress.v13.1" WarningLevel="1" />
+    </Group>
+  </Configuration>
+  <InitializeActions />
+  <ExecuteActions>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="70" Y="12" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage.UIRibbonPageGroup_tranRibbonPageGroup.UINhânViênRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="33" Y="45" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UINhânViênTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="69" Y="31" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIThêmTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="60" Y="16" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_TenNhanVienCustom.UITxt_NV_TenNhanVienEdit">
+      <ParameterName />
+      <Value Encoded="false">Bui Xuan Truong</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UICmb_NV_GioiTinhCustom.UIMậtKhẩuComboBox">
+      <ParameterName />
+      <Value Encoded="false">Nam</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UIDtp_NV_NgaySinhCustom.UIDtp_NV_NgaySinhDateTimePicker">
+      <ParameterName />
+      <Value Encoded="false">29-Nov-1992</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_TenDangNhapCustom.UITxt_NV_TenDangNhapEdit">
+      <ParameterName />
+      <Value Encoded="false">truong</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_TenDangNhapCustom.UITxt_NV_TenDangNhapEdit">
+      <ParameterName />
+      <Value Encoded="false">truongbx</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="509" Y="29" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UICmb_NV_PBCustom.UICmb_NV_PBComboBox">
+      <ParameterName />
+      <Value Encoded="false">Bán Hàng</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_DiaChiCustom.UITxt_NV_DiaChiEdit">
+      <ParameterName />
+      <Value Encoded="false">TPHCM</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SendKeysAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_DiaChiCustom.UITxt_NV_DiaChiEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">{Down}</Text>
+    </SendKeysAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_SDTCustom.UITxt_NV_SDTEdit">
+      <ParameterName />
+      <Value Encoded="false">0928381841</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_CMNDCustom.UITxt_NV_CMNDEdit">
+      <ParameterName />
+      <Value Encoded="false">123412312</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_MatKhauCustom.UITxt_NV_MatKhauEdit">
+      <ParameterName />
+      <Value Encoded="false">12345</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UILưuTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="38" Y="13" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIThôngBáoWindow.UIOKWindow.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="48" Y="15" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AddEmployee">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="52" Y="7" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage.UIRibbonPageGroup_tranRibbonPageGroup.UINhânViênRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="42" Y="40" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UINhânViênTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="62" Y="19" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIThêmTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="47" Y="17" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UILưuTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="46" Y="21" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AddEmployeeEmpty">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="70" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage.UIRibbonPageGroup_tranRibbonPageGroup.UINhânViênRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="48" Y="37" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UINhânViênTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="77" Y="25" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIThêmTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="61" Y="23" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_TenNhanVienCustom.UITxt_NV_TenNhanVienEdit">
+      <ParameterName />
+      <Value Encoded="false">vc</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SendKeysAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_TenNhanVienCustom.UITxt_NV_TenNhanVienEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">123</Text>
+    </SendKeysAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_TenDangNhapCustom.UITxt_NV_TenDangNhapEdit">
+      <ParameterName />
+      <Value Encoded="false">bv12</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_DiaChiCustom.UITxt_NV_DiaChiEdit">
+      <ParameterName />
+      <Value Encoded="false">bv12</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_SDTCustom.UITxt_NV_SDTEdit">
+      <ParameterName />
+      <Value Encoded="false">1</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SendKeysAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_SDTCustom.UITxt_NV_SDTEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">bv</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_CMNDCustom.UITxt_NV_CMNDEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="61" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_CMNDCustom.UITxt_NV_CMNDEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">bv</Text>
+    </SendKeysAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_SDTCustom.UITxt_NV_SDTEdit">
+      <ParameterName />
+      <Value Encoded="false">112</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_CMNDCustom.UITxt_NV_CMNDEdit">
+      <ParameterName />
+      <Value Encoded="false">12</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_MatKhauCustom.UITxt_NV_MatKhauEdit">
+      <ParameterName />
+      <Value Encoded="false">bv12</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UILưuTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="64" Y="20" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIHủyTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="55" Y="17" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AddEmployeeError">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="65" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage.UIRibbonPageGroup_tranRibbonPageGroup.UINhânViênRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="45" Y="29" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UINhânViênTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="62" Y="21" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl3Client.UIDgvNhanVienCustom.UIDgvNhanVienWindow.UIDataGridViewTable.UIRow4Row1.UINguyenNgocTamCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="15" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIXóaTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="50" Y="22" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIThôngBáoWindow.UIYesWindow.UIYesButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="20" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIThôngBáoWindow.UIOKWindow.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="13" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="DeleteEmployee">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_3_lapphieRibbonPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="36" Y="20" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_3_lapphieRibbonPage.UIRibbonPageGroup_lappRibbonPageGroup.UINhậpHàngRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="16" Y="35" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_3_lapphieRibbonPage.UIRibbonPageGroup_lappRibbonPageGroup.UIInPhiếuNhậpRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="51" Y="36" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIGridControl1Table.UIGridControlRowIndicaRowHeader">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="9" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIPanelControlWindow.UIPanelControlCustom.UIInPhiếuNhậpWindow.UIInPhiếuNhậpButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="77" Y="13" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="InPhieuNhapHang">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <SetValueAction UIObjectName="UIMap.UITRANGĐĂNGNHẬPWindow.UITxt_tendangnhapWindow.UITxt_tendangnhapEdit">
+      <ParameterName />
+      <Value Encoded="false">thu</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SendKeysAction UIObjectName="UIMap.UITRANGĐĂNGNHẬPWindow.UITxt_tendangnhapWindow.UITxt_tendangnhapEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">{Tab}</Text>
+    </SendKeysAction>
+    <SendKeysAction UIObjectName="UIMap.UITRANGĐĂNGNHẬPWindow.UITxt_mkWindow.UITxt_mkEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="true">JCCo6y6bjZ+TjRKLET74Tq0lmyc7UCAk</Text>
+    </SendKeysAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="Login">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UITRANGĐĂNGNHẬPWindow.UIĐăngNhậpWindow.UIĐăngNhậpButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="46" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UILỗiđăngnhậpWindow.UIOKWindow.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="40" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="LoginEmpty">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <SetValueAction UIObjectName="UIMap.UITRANGĐĂNGNHẬPWindow.UITxt_tendangnhapWindow.UITxt_tendangnhapEdit">
+      <ParameterName />
+      <Value Encoded="false">zxc</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap.UITRANGĐĂNGNHẬPWindow.UITxt_mkWindow.UITxt_mkEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="60" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SendKeysAction UIObjectName="UIMap.UITRANGĐĂNGNHẬPWindow.UITxt_mkWindow.UITxt_mkEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="true">bspTUCPPnM97hITv2hFV4Q==</Text>
+    </SendKeysAction>
+    <MouseAction UIObjectName="UIMap.UITRANGĐĂNGNHẬPWindow.UIĐăngNhậpWindow.UIĐăngNhậpButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="55" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UILỗiđăngnhậpWindow.UIOKWindow.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="64" Y="14" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="LoginError">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_3_lapphieRibbonPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="50" Y="5" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_3_lapphieRibbonPage.UIRibbonPageGroup_lappRibbonPageGroup.UINhậpHàngRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="31" Y="24" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMap.UIPanelControlWindow.UIPanelControlCustom.UICbmathangWindow.UICbmathangComboBox">
+      <ParameterName />
+      <Value Encoded="false">LG Optimus G</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIPanelControlWindow.UIPanelControlCustom.UICbTenNCCWindow.UIHgfComboBox">
+      <ParameterName />
+      <Value Encoded="false">cty THHH B</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIPanelControlWindow.UIPanelControlCustom.UITxtSoLuongWindow.UITxtSoLuongEdit">
+      <ParameterName />
+      <Value Encoded="false">1</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap.UIPanelControlWindow.UIPanelControlCustom.UIThêmWindow.UIThêmButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="52" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMap.UIPanelControlWindow.UIPanelControlCustom.UICbmathangWindow.UICbmathangComboBox">
+      <ParameterName />
+      <Value Encoded="false">Galaxy S4</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIPanelControlWindow.UIPanelControlCustom.UICbTenNCCWindow.UIHgfComboBox">
+      <ParameterName />
+      <Value Encoded="false">Cty TNHH A</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap.UIPanelControlWindow.UIPanelControlCustom.UINhậpmặthàngGroup.UITxtSoLuongWindow">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="56" Y="0" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMap.UIPanelControlWindow.UIPanelControlCustom.UITxtSoLuongWindow.UITxtSoLuongEdit">
+      <ParameterName />
+      <Value Encoded="false">1</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap.UIPanelControlWindow.UIPanelControlCustom.UIThêmWindow.UIThêmButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="42" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIPanelControlWindow.UIPanelControlCustom.UILưuWindow.UILưuButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="34" Y="13" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIThôngBáoWindow.UIOKWindow1.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="64" Y="15" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIThôngBáoWindow.UIOKWindow.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="21" Y="15" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="ThemPhieuNhapHang">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_3_lapphieRibbonPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="41" Y="13" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_3_lapphieRibbonPage.UIRibbonPageGroup_lappRibbonPageGroup.UINhậpHàngRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="26" Y="34" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIPanelControlWindow.UIPanelControlCustom.UIThêmWindow.UIThêmButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="31" Y="6" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIPanelControlWindow.UIPanelControlCustom.UILưuWindow.UILưuButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="55" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIThôngBáoWindow.UIOKWindow1.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="74" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIThôngBáoWindow.UIOKWindow.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="41" Y="15" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIPanelControlWindow.UIPanelControlCustom.UIThoátWindow.UIThoátButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="48" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="ThemPhieuNhapHangSai">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="61" Y="18" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage.UIRibbonPageGroup_tranRibbonPageGroup.UINhânViênRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="33" Y="36" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UINhânViênTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="69" Y="26" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl3Client.UIDgvNhanVienCustom.UIDgvNhanVienWindow.UIDataGridViewTable.UIRow4Row.UINguyenNgocTanCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="111" Y="7" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UISửaTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="57" Y="23" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_TenNhanVienCustom.UITxt_NV_TenNhanVienEdit">
+      <ParameterName />
+      <Value Encoded="false">Nguyen Ngoc Tam</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UICmb_NV_GioiTinhCustom.UIMậtKhẩuComboBox">
+      <ParameterName />
+      <Value Encoded="false">Nữ</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_TenDangNhapCustom.UITxt_NV_TenDangNhapEdit">
+      <ParameterName />
+      <Value Encoded="false">tamnn</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UIDtp_NV_NgaySinhCustom.UIDtp_NV_NgaySinhDateTimePicker">
+      <ParameterName />
+      <Value Encoded="false">03-Feb-1993</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_DiaChiCustom.UITxt_NV_DiaChiEdit">
+      <ParameterName />
+      <Value Encoded="false">Dong Nai</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_SDTCustom.UITxt_NV_SDTEdit">
+      <ParameterName />
+      <Value Encoded="false">0928138223</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_CMNDCustom.UITxt_NV_CMNDEdit">
+      <ParameterName />
+      <Value Encoded="false">098217322</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UILưuTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="49" Y="22" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIThôngBáoWindow.UIOKWindow.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="61" Y="15" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="UpdateEmployee">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="70" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage.UIRibbonPageGroup_tranRibbonPageGroup.UINhânViênRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="23" Y="43" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UINhânViênTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="51" Y="24" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl3Client.UIDgvNhanVienCustom.UIDgvNhanVienWindow.UIDataGridViewTable.UIRow0Row.UINguyễnVũXuânThuCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="78" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UISửaTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="49" Y="18" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_TenNhanVienCustom.UITxt_NV_TenNhanVienEdit">
+      <ParameterName />
+      <Value Encoded="false" />
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_TenDangNhapCustom.UITxt_NV_TenDangNhapEdit">
+      <ParameterName />
+      <Value Encoded="false" />
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_MatKhauCustom.UITxt_NV_MatKhauEdit">
+      <ParameterName />
+      <Value Encoded="false" />
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_CMNDCustom.UITxt_NV_CMNDEdit">
+      <ParameterName />
+      <Value Encoded="false" />
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_SDTCustom.UITxt_NV_SDTEdit">
+      <ParameterName />
+      <Value Encoded="false" />
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_DiaChiCustom.UITxt_NV_DiaChiEdit">
+      <ParameterName />
+      <Value Encoded="false" />
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UILưuTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="30" Y="14" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIHủyTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="63" Y="15" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="UpdateEmployeeEmpty">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="66" Y="15" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage.UIRibbonPageGroup_tranRibbonPageGroup.UINhânViênRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="29" Y="34" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UINhânViênTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="45" Y="28" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl3Client.UIDgvNhanVienCustom.UIDgvNhanVienWindow.UIDataGridViewTable.UIRow0Row.UINguyễnVũXuânThuCell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="102" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UISửaTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="38" Y="24" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_TenNhanVienCustom.UITxt_NV_TenNhanVienEdit">
+      <ParameterName />
+      <Value Encoded="false">abc</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SendKeysAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_TenNhanVienCustom.UITxt_NV_TenNhanVienEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">1231</Text>
+    </SendKeysAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_TenDangNhapCustom.UITxt_NV_TenDangNhapEdit">
+      <ParameterName />
+      <Value Encoded="false">abc1213</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_DiaChiCustom.UITxt_NV_DiaChiEdit">
+      <ParameterName />
+      <Value Encoded="false">q11 q1</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_SDTCustom.UITxt_NV_SDTEdit">
+      <ParameterName />
+      <Value Encoded="false">123</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SendKeysAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_SDTCustom.UITxt_NV_SDTEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">bv</Text>
+    </SendKeysAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_CMNDCustom.UITxt_NV_CMNDEdit">
+      <ParameterName />
+      <Value Encoded="false">123</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <SendKeysAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_CMNDCustom.UITxt_NV_CMNDEdit">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Text Encoded="false">v</Text>
+    </SendKeysAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom.UIPanelControl1Client.UITxt_NV_MatKhauCustom.UITxt_NV_MatKhauEdit">
+      <ParameterName />
+      <Value Encoded="false">abv12</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UILưuTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="54" Y="19" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIHủyTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="59" Y="14" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="UpdateEmployeeError">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="58" Y="12" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage.UIRibbonPageGroup_tranRibbonPageGroup.UINhânViênRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="32" Y="27" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIGiớiTínhTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="63" Y="17" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIThêmTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="60" Y="20" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom1.UIPanelControl7Client.UITxt_GT_TenGioiTinhCustom.UITxt_GT_TenGioiTinhEdit">
+      <ParameterName />
+      <Value Encoded="false">abc</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UILưuTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="63" Y="14" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIThôngBáoWindow.UIOKWindow.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="36" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AddGender">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="73" Y="17" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage.UIRibbonPageGroup_tranRibbonPageGroup.UINhânViênRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="35" Y="32" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIGiớiTínhTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="73" Y="23" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIThêmTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="65" Y="28" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UILưuTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="38" Y="34" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIHủyTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="49" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="AddGenderError">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="60" Y="8" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage.UIRibbonPageGroup_tranRibbonPageGroup.UINhânViênRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="55" Y="25" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIGiớiTínhTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="62" Y="20" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom1.UIPanelControl8Client.UIDgvGioiTinhCustom.UIDgvGioiTinhWindow.UIDataGridViewTable.UIRow0Row.UIGT001Cell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="58" Y="12" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UISửaTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="67" Y="20" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom1.UIPanelControl7Client.UITxt_GT_TenGioiTinhCustom.UITxt_GT_TenGioiTinhEdit">
+      <ParameterName />
+      <Value Encoded="false">Nam</Value>
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UILưuTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="30" Y="29" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIThôngBáoWindow.UIOKWindow.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="35" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="UpdateGender">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="59" Y="9" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage.UIRibbonPageGroup_tranRibbonPageGroup.UINhânViênRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="52" Y="29" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIGiớiTínhTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="80" Y="16" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom1.UIPanelControl8Client.UIDgvGioiTinhCustom.UIDgvGioiTinhWindow.UIDataGridViewTable.UIRow0Row.UIGT001Cell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="134" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UISửaTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="68" Y="14" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <SetValueAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom1.UIPanelControl7Client.UITxt_GT_TenGioiTinhCustom.UITxt_GT_TenGioiTinhEdit">
+      <ParameterName />
+      <Value Encoded="false" />
+      <Type>String</Type>
+    </SetValueAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UILưuTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="36" Y="20" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIHủyTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="46" Y="13" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="UpdateGenderError">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="72" Y="17" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage.UIRibbonPageGroup_tranRibbonPageGroup.UINhânViênRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="60" Y="32" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIGiớiTínhTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="64" Y="20" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom1.UIPanelControl8Client.UIDgvGioiTinhCustom.UIDgvGioiTinhWindow.UIDataGridViewTable.UIRow3Row.UIGT006Cell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="43" Y="6" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIXóaTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="50" Y="21" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIThôngBáoWindow.UIYesWindow.UIYesButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="66" Y="12" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIThôngBáoWindow.UIOKWindow.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="32" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="DeleteGender">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="62" Y="11" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIRibbonControlRibbon.UIRibbonPage_2_trangquRibbonPage.UIRibbonPageGroup_tranRibbonPageGroup.UINhânViênRibbonBaseButtonItem">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="53" Y="35" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIGiớiTínhTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="63" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIBackstageViewClientCCustom1.UIPanelControl8Client.UIDgvGioiTinhCustom.UIDgvGioiTinhWindow.UIDataGridViewTable.UIRow0Row.UIGT001Cell">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="122" Y="12" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIMainWindow.UIBackstageViewControlCustom.UIXóaTabPage">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="47" Y="10" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIThôngBáoWindow.UIYesWindow.UIYesButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="69" Y="17" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <MouseAction UIObjectName="UIMap.UIOKWindow.UIOKButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="39" Y="7" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="DeleteGenderError">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
+    </TestStepMarkerAction>
+  </ExecuteActions>
+  <CleanupActions />
+  <OnErrorActions />
+  <Maps>
+    <UIMap Id="UIMap">
+      <TopLevelWindows>
+        <TopLevelWindow ControlType="Window" Id="UITRANGĐĂNGNHẬPWindow" FriendlyName="TRANG ĐĂNG NHẬP" SpecialControlType="None" SessionId="1180582">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>TRANG ĐĂNG NHẬP</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">TRANG ĐĂNG NHẬP</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Window" Id="UITxt_tendangnhapWindow" FriendlyName="txt_tendangnhap" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>TRANG ĐĂNG NHẬP</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlName">txt_tendangnhap</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Edit" Id="UITxt_tendangnhapEdit" FriendlyName="txt_tendangnhap" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>TRANG ĐĂNG NHẬP</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UITxt_mkWindow" FriendlyName="txt_mk" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>TRANG ĐĂNG NHẬP</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlName">txt_mk</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Edit" Id="UITxt_mkEdit" FriendlyName="txt_mk" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>TRANG ĐĂNG NHẬP</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UIĐăngNhậpWindow" FriendlyName="Đăng Nhập" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>TRANG ĐĂNG NHẬP</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlName">btn_dangnhap</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UIĐăngNhậpButton" FriendlyName="Đăng Nhập" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>TRANG ĐĂNG NHẬP</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Đăng Nhập</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIMainWindow" FriendlyName="main" SpecialControlType="None" SessionId="2425778">
+          <TechnologyName>DevExpress.v13.1</TechnologyName>
+          <WindowTitles />
+          <AndCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Custom" Id="UIBackstageViewControlCustom" FriendlyName="backstageViewControl_nhanvien" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">backstageViewControl_nhanvien</PropertyCondition>
+                <PropertyCondition Name="ClassName">BackstageViewControl</PropertyCondition>
+                <PropertyCondition Name="HierarchyLevel">3</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="TabPage" Id="UINhânViênTabPage" FriendlyName="Nhân Viên" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">backstageViewTabItem_nhanvien</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewControlItem</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="TabPage" Id="UIThêmTabPage" FriendlyName="Thêm" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">btn_them</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewControlItem</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Custom" Id="UIBackstageViewClientCCustom" FriendlyName="backstageViewClientControl1" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">backstageViewClientControl1</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewClientControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Client" Id="UIPanelControl1Client" FriendlyName="panelControl1" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v13.1</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition>
+                        <PropertyCondition Name="Name">panelControl1</PropertyCondition>
+                        <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Custom" Id="UITxt_NV_TenNhanVienCustom" FriendlyName="txt_NV_TenNhanVien" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">txt_NV_TenNhanVien</PropertyCondition>
+                            <PropertyCondition Name="ClassName">TextBox</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Edit" Id="UITxt_NV_TenNhanVienEdit" FriendlyName="txt_NV_TenNhanVien" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Custom" Id="UICmb_NV_GioiTinhCustom" FriendlyName="cmb_NV_GioiTinh" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">cmb_NV_GioiTinh</PropertyCondition>
+                            <PropertyCondition Name="ClassName">ComboBox</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="ComboBox" Id="UIMậtKhẩuComboBox" FriendlyName="Mật Khẩu" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="Name">Mật Khẩu</PropertyCondition>
+                                <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Custom" Id="UIDtp_NV_NgaySinhCustom" FriendlyName="dtp_NV_NgaySinh" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">dtp_NV_NgaySinh</PropertyCondition>
+                            <PropertyCondition Name="ClassName">DateTimePicker</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="DateTimePicker" Id="UIDtp_NV_NgaySinhDateTimePicker" FriendlyName="dtp_NV_NgaySinh" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">DateTimePicker</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Custom" Id="UITxt_NV_TenDangNhapCustom" FriendlyName="txt_NV_TenDangNhap" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">txt_NV_TenDangNhap</PropertyCondition>
+                            <PropertyCondition Name="ClassName">TextBox</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Edit" Id="UITxt_NV_TenDangNhapEdit" FriendlyName="txt_NV_TenDangNhap" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Custom" Id="UICmb_NV_PBCustom" FriendlyName="cmb_NV_PB" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">cmb_NV_PB</PropertyCondition>
+                            <PropertyCondition Name="ClassName">ComboBox</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="ComboBox" Id="UICmb_NV_PBComboBox" FriendlyName="cmb_NV_PB" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Custom" Id="UITxt_NV_DiaChiCustom" FriendlyName="txt_NV_DiaChi" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">txt_NV_DiaChi</PropertyCondition>
+                            <PropertyCondition Name="ClassName">TextBox</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Edit" Id="UITxt_NV_DiaChiEdit" FriendlyName="txt_NV_DiaChi" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Custom" Id="UITxt_NV_SDTCustom" FriendlyName="txt_NV_SDT" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">txt_NV_SDT</PropertyCondition>
+                            <PropertyCondition Name="ClassName">TextBox</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Window" Id="UINhậpsốđiệnthoạiWindow" FriendlyName="Nhập số điện thoại" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                            <UIObject ControlType="Edit" Id="UITxt_NV_SDTEdit" FriendlyName="txt_NV_SDT" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Custom" Id="UITxt_NV_CMNDCustom" FriendlyName="txt_NV_CMND" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">txt_NV_CMND</PropertyCondition>
+                            <PropertyCondition Name="ClassName">TextBox</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Edit" Id="UITxt_NV_CMNDEdit" FriendlyName="txt_NV_CMND" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Custom" Id="UITxt_NV_MatKhauCustom" FriendlyName="txt_NV_MatKhau" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">txt_NV_MatKhau</PropertyCondition>
+                            <PropertyCondition Name="ClassName">TextBox</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Edit" Id="UITxt_NV_MatKhauEdit" FriendlyName="txt_NV_MatKhau" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Client" Id="UIPanelControl3Client" FriendlyName="panelControl3" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v13.1</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition>
+                        <PropertyCondition Name="Name">panelControl3</PropertyCondition>
+                        <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Custom" Id="UIDgvNhanVienCustom" FriendlyName="dgvNhanVien" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">dgvNhanVien</PropertyCondition>
+                            <PropertyCondition Name="ClassName">DataGridView</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Window" Id="UIDgvNhanVienWindow" FriendlyName="dgvNhanVien" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <SearchConfigurations>
+                                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                              </SearchConfigurations>
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlName">dgvNhanVien</PropertyCondition>
+                                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Table" Id="UIDataGridViewTable" FriendlyName="DataGridView" SpecialControlType="None">
+                                  <TechnologyName>MSAA</TechnologyName>
+                                  <WindowTitles />
+                                  <AndCondition Id="SearchCondition">
+                                    <PropertyCondition Name="Name">DataGridView</PropertyCondition>
+                                    <PropertyCondition Name="ControlType">Table</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="Row" Id="UIRow7Row" FriendlyName="Row 7" SpecialControlType="None">
+                                      <TechnologyName>MSAA</TechnologyName>
+                                      <WindowTitles />
+                                      <SearchConfigurations>
+                                        <SearchConfiguration>AlwaysSearch</SearchConfiguration>
+                                      </SearchConfigurations>
+                                      <AndCondition Id="SearchCondition">
+                                        <PropertyCondition Name="Value">NV011;Bui Xuan Truong;11/29/1992;Nam;123412312;TPHCM;0928381841;Bán Hàng;truongbx;827CCB0EEA8A706C4C34A16891F84E7B</PropertyCondition>
+                                        <PropertyCondition Name="ControlType">Row</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Cell" Id="UIBuiXuanTruongCell" FriendlyName="Bui Xuan Truong" SpecialControlType="None">
+                                          <TechnologyName>MSAA</TechnologyName>
+                                          <WindowTitles />
+                                          <AndCondition Id="SearchCondition">
+                                            <PropertyCondition Name="Value">Bui Xuan Truong</PropertyCondition>
+                                            <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants />
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                    <UIObject ControlType="Row" Id="UIRow0Row" FriendlyName="Row 0" SpecialControlType="None">
+                                      <TechnologyName>MSAA</TechnologyName>
+                                      <WindowTitles />
+                                      <SearchConfigurations>
+                                        <SearchConfiguration>AlwaysSearch</SearchConfiguration>
+                                      </SearchConfigurations>
+                                      <AndCondition Id="SearchCondition">
+                                        <PropertyCondition Name="Value">NV002;Nguyễn Vũ Xuân Thu;11/11/1991;Nam;123456789;Daklak;1234567890;Quản Trị;Thu;fe9e27dd7bf526b57d69d3bd9fac33dc</PropertyCondition>
+                                        <PropertyCondition Name="ControlType">Row</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Cell" Id="UINguyễnVũXuânThuCell" FriendlyName="Nguyễn Vũ Xuân Thu" SpecialControlType="None">
+                                          <TechnologyName>MSAA</TechnologyName>
+                                          <WindowTitles />
+                                          <AndCondition Id="SearchCondition">
+                                            <PropertyCondition Name="Value">Nguyễn Vũ Xuân Thu</PropertyCondition>
+                                            <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants />
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                    <UIObject ControlType="Row" Id="UIRow0Row1" FriendlyName="Row 0" SpecialControlType="None">
+                                      <TechnologyName>MSAA</TechnologyName>
+                                      <WindowTitles />
+                                      <SearchConfigurations>
+                                        <SearchConfiguration>AlwaysSearch</SearchConfiguration>
+                                      </SearchConfigurations>
+                                      <AndCondition Id="SearchCondition">
+                                        <PropertyCondition Name="Value">NV002;Nguyễn Vũ Xuân Thu;11/11/1991;Con gái;123456789;Daklak;1234567890;Quản Trị;Thu;13BBF54A6850C393FB8D1B2B3BBA997B</PropertyCondition>
+                                        <PropertyCondition Name="ControlType">Row</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Cell" Id="UINguyễnVũXuânThuCell" FriendlyName="Nguyễn Vũ Xuân Thu" SpecialControlType="None">
+                                          <TechnologyName>MSAA</TechnologyName>
+                                          <WindowTitles />
+                                          <AndCondition Id="SearchCondition">
+                                            <PropertyCondition Name="Value">Nguyễn Vũ Xuân Thu</PropertyCondition>
+                                            <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants />
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                    <UIObject ControlType="Row" Id="UIRow4Row" FriendlyName="Row 4" SpecialControlType="None">
+                                      <TechnologyName>MSAA</TechnologyName>
+                                      <WindowTitles />
+                                      <SearchConfigurations>
+                                        <SearchConfiguration>AlwaysSearch</SearchConfiguration>
+                                      </SearchConfigurations>
+                                      <AndCondition Id="SearchCondition">
+                                        <PropertyCondition Name="Value">NV007;Nguyen Ngoc Tan;2/3/1992;Nam;098217321;TPHCM;0928138293;Quản Trị;hannn;12345</PropertyCondition>
+                                        <PropertyCondition Name="ControlType">Row</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Cell" Id="UINguyenNgocTanCell" FriendlyName="Nguyen Ngoc Tan" SpecialControlType="None">
+                                          <TechnologyName>MSAA</TechnologyName>
+                                          <WindowTitles />
+                                          <AndCondition Id="SearchCondition">
+                                            <PropertyCondition Name="Value">Nguyen Ngoc Tan</PropertyCondition>
+                                            <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants />
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                    <UIObject ControlType="Row" Id="UIRow4Row1" FriendlyName="Row 4" SpecialControlType="None">
+                                      <TechnologyName>MSAA</TechnologyName>
+                                      <WindowTitles />
+                                      <SearchConfigurations>
+                                        <SearchConfiguration>AlwaysSearch</SearchConfiguration>
+                                      </SearchConfigurations>
+                                      <AndCondition Id="SearchCondition">
+                                        <PropertyCondition Name="Value">NV007;Nguyen Ngoc Tam;2/3/1993;Nữ;098217322;Dong Nai;0928138223;Quản Trị;tamnn;13BBF54A6850C393FB8D1B2B3BBA997B</PropertyCondition>
+                                        <PropertyCondition Name="ControlType">Row</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Cell" Id="UINguyenNgocTamCell" FriendlyName="Nguyen Ngoc Tam" SpecialControlType="None">
+                                          <TechnologyName>MSAA</TechnologyName>
+                                          <WindowTitles />
+                                          <AndCondition Id="SearchCondition">
+                                            <PropertyCondition Name="Value">Nguyen Ngoc Tam</PropertyCondition>
+                                            <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants />
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="TabPage" Id="UILưuTabPage" FriendlyName="Lưu" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">btn_luu</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewControlItem</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="TabPage" Id="UIGiớiTínhTabPage" FriendlyName="Giới Tính" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">backstageViewTabItem_gioitinh</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewControlItem</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="Custom" Id="UIBackstageViewClientCCustom1" FriendlyName="backstageViewClientControl2" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">backstageViewClientControl2</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewClientControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Client" Id="UIPanelControl7Client" FriendlyName="panelControl7" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v13.1</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition>
+                        <PropertyCondition Name="Name">panelControl7</PropertyCondition>
+                        <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Custom" Id="UITxt_GT_TenGioiTinhCustom" FriendlyName="txt_GT_TenGioiTinh" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">txt_GT_TenGioiTinh</PropertyCondition>
+                            <PropertyCondition Name="ClassName">TextBox</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Edit" Id="UITxt_GT_TenGioiTinhEdit" FriendlyName="txt_GT_TenGioiTinh" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                    <UIObject ControlType="Client" Id="UIPanelControl8Client" FriendlyName="panelControl8" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v13.1</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition>
+                        <PropertyCondition Name="Name">panelControl8</PropertyCondition>
+                        <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Custom" Id="UIDgvGioiTinhCustom" FriendlyName="dgvGioiTinh" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">dgvGioiTinh</PropertyCondition>
+                            <PropertyCondition Name="ClassName">DataGridView</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Window" Id="UIDgvGioiTinhWindow" FriendlyName="dgvGioiTinh" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <SearchConfigurations>
+                                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                              </SearchConfigurations>
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlName">dgvGioiTinh</PropertyCondition>
+                                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants>
+                                <UIObject ControlType="Table" Id="UIDataGridViewTable" FriendlyName="DataGridView" SpecialControlType="None">
+                                  <TechnologyName>MSAA</TechnologyName>
+                                  <WindowTitles />
+                                  <AndCondition Id="SearchCondition">
+                                    <PropertyCondition Name="Name">DataGridView</PropertyCondition>
+                                    <PropertyCondition Name="ControlType">Table</PropertyCondition>
+                                  </AndCondition>
+                                  <SupportLevel>0</SupportLevel>
+                                  <Descendants>
+                                    <UIObject ControlType="Row" Id="UIRow2Row" FriendlyName="Row 2" SpecialControlType="None">
+                                      <TechnologyName>MSAA</TechnologyName>
+                                      <WindowTitles />
+                                      <SearchConfigurations>
+                                        <SearchConfiguration>AlwaysSearch</SearchConfiguration>
+                                      </SearchConfigurations>
+                                      <AndCondition Id="SearchCondition">
+                                        <PropertyCondition Name="Value">GT005;BĐ</PropertyCondition>
+                                        <PropertyCondition Name="ControlType">Row</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Cell" Id="UIGT005Cell" FriendlyName="GT005" SpecialControlType="None">
+                                          <TechnologyName>MSAA</TechnologyName>
+                                          <WindowTitles />
+                                          <AndCondition Id="SearchCondition">
+                                            <PropertyCondition Name="Value">GT005</PropertyCondition>
+                                            <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants />
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                    <UIObject ControlType="Row" Id="UIRow2Row1" FriendlyName="Row 2" SpecialControlType="None">
+                                      <TechnologyName>MSAA</TechnologyName>
+                                      <WindowTitles />
+                                      <SearchConfigurations>
+                                        <SearchConfiguration>AlwaysSearch</SearchConfiguration>
+                                      </SearchConfigurations>
+                                      <AndCondition Id="SearchCondition">
+                                        <PropertyCondition Name="Value">GT005;Không</PropertyCondition>
+                                        <PropertyCondition Name="ControlType">Row</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Cell" Id="UIGT005Cell" FriendlyName="GT005" SpecialControlType="None">
+                                          <TechnologyName>MSAA</TechnologyName>
+                                          <WindowTitles />
+                                          <AndCondition Id="SearchCondition">
+                                            <PropertyCondition Name="Value">GT005</PropertyCondition>
+                                            <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants />
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                    <UIObject ControlType="Row" Id="UIRow3Row" FriendlyName="Row 3" SpecialControlType="None">
+                                      <TechnologyName>MSAA</TechnologyName>
+                                      <WindowTitles />
+                                      <SearchConfigurations>
+                                        <SearchConfiguration>AlwaysSearch</SearchConfiguration>
+                                      </SearchConfigurations>
+                                      <AndCondition Id="SearchCondition">
+                                        <PropertyCondition Name="Value">GT006;abc</PropertyCondition>
+                                        <PropertyCondition Name="ControlType">Row</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Cell" Id="UIGT006Cell" FriendlyName="GT006" SpecialControlType="None">
+                                          <TechnologyName>MSAA</TechnologyName>
+                                          <WindowTitles />
+                                          <AndCondition Id="SearchCondition">
+                                            <PropertyCondition Name="Value">GT006</PropertyCondition>
+                                            <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants />
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                    <UIObject ControlType="Row" Id="UIRow0Row" FriendlyName="Row 0" SpecialControlType="None">
+                                      <TechnologyName>MSAA</TechnologyName>
+                                      <WindowTitles />
+                                      <SearchConfigurations>
+                                        <SearchConfiguration>AlwaysSearch</SearchConfiguration>
+                                      </SearchConfigurations>
+                                      <AndCondition Id="SearchCondition">
+                                        <PropertyCondition Name="Value">GT001;Nam</PropertyCondition>
+                                        <PropertyCondition Name="ControlType">Row</PropertyCondition>
+                                      </AndCondition>
+                                      <SupportLevel>0</SupportLevel>
+                                      <Descendants>
+                                        <UIObject ControlType="Cell" Id="UIGT001Cell" FriendlyName="GT001" SpecialControlType="None">
+                                          <TechnologyName>MSAA</TechnologyName>
+                                          <WindowTitles />
+                                          <AndCondition Id="SearchCondition">
+                                            <PropertyCondition Name="Value">GT001</PropertyCondition>
+                                            <PropertyCondition Name="ControlType">Cell</PropertyCondition>
+                                          </AndCondition>
+                                          <SupportLevel>0</SupportLevel>
+                                          <Descendants />
+                                        </UIObject>
+                                      </Descendants>
+                                    </UIObject>
+                                  </Descendants>
+                                </UIObject>
+                              </Descendants>
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="TabPage" Id="UISửaTabPage" FriendlyName="Sửa" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">btn_sua</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewControlItem</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="TabPage" Id="UIXóaTabPage" FriendlyName="Xóa" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">btn_xoa</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewControlItem</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+                <UIObject ControlType="TabPage" Id="UIHủyTabPage" FriendlyName="Hủy" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">btn_huy</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewControlItem</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Ribbon" Id="UIRibbonControlRibbon" FriendlyName="ribbonControl" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">ribbonControl</PropertyCondition>
+                <PropertyCondition Name="ClassName">RibbonControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="RibbonPage" Id="UIRibbonPage_2_trangquRibbonPage" FriendlyName="ribbonPage_2_trangquanly" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">ribbonPage_2_trangquanly</PropertyCondition>
+                    <PropertyCondition Name="ClassName">RibbonPage</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="RibbonPageGroup" Id="UIRibbonPageGroup_tranRibbonPageGroup" FriendlyName="ribbonPageGroup_trangquanly" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v13.1</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition>
+                        <PropertyCondition Name="Name">ribbonPageGroup_trangquanly</PropertyCondition>
+                        <PropertyCondition Name="ClassName">RibbonPageGroup</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="RibbonBaseButtonItem" Id="UINhânViênRibbonBaseButtonItem" FriendlyName="Nhân Viên" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">barButtonItem_nhanvien</PropertyCondition>
+                            <PropertyCondition Name="ClassName">RibbonBaseButtonItem</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="RibbonBaseButtonItem" Id="UIKháchHàngRibbonBaseButtonItem" FriendlyName="Khách Hàng" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">barButtonItem_khachhang</PropertyCondition>
+                            <PropertyCondition Name="ClassName">RibbonBaseButtonItem</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="RibbonPage" Id="UIRibbonPage_3_lapphieRibbonPage" FriendlyName="ribbonPage_3_lapphieu" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">ribbonPage_3_lapphieu</PropertyCondition>
+                    <PropertyCondition Name="ClassName">RibbonPage</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="RibbonPageGroup" Id="UIRibbonPageGroup_lappRibbonPageGroup" FriendlyName="ribbonPageGroup_lapphieu" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v13.1</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition>
+                        <PropertyCondition Name="Name">ribbonPageGroup_lapphieu</PropertyCondition>
+                        <PropertyCondition Name="ClassName">RibbonPageGroup</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="RibbonBaseButtonItem" Id="UINhậpHàngRibbonBaseButtonItem" FriendlyName="Nhập Hàng" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">barButtonItem_nhap</PropertyCondition>
+                            <PropertyCondition Name="ClassName">RibbonBaseButtonItem</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                        <UIObject ControlType="RibbonBaseButtonItem" Id="UIInPhiếuNhậpRibbonBaseButtonItem" FriendlyName="In Phiếu Nhập" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">barButtonItem_phieunhap</PropertyCondition>
+                            <PropertyCondition Name="ClassName">RibbonBaseButtonItem</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Custom" Id="UIBackstageViewControlCustom1" FriendlyName="backstageViewControl1" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">backstageViewControl1</PropertyCondition>
+                <PropertyCondition Name="ClassName">BackstageViewControl</PropertyCondition>
+                <PropertyCondition Name="HierarchyLevel">3</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="TabPage" Id="UIKháchHàngTabPage" FriendlyName="Khách Hàng" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">backstageViewTabItem_khachhang</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewControlItem</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Custom" Id="UIBackstageViewControlCustom2" FriendlyName="backstageViewControl1" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">backstageViewControl1</PropertyCondition>
+                <PropertyCondition Name="ClassName">BackstageViewControl</PropertyCondition>
+                <PropertyCondition Name="HierarchyLevel">3</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="TabPage" Id="UIThêmTabPage" FriendlyName="Thêm" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">btn_them</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewControlItem</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Custom" Id="UIBackstageViewControlCustom3" FriendlyName="backstageViewControl1" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">backstageViewControl1</PropertyCondition>
+                <PropertyCondition Name="ClassName">BackstageViewControl</PropertyCondition>
+                <PropertyCondition Name="HierarchyLevel">3</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Custom" Id="UIBackstageViewClientCCustom" FriendlyName="backstageViewClientControl1" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">backstageViewClientControl1</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewClientControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Client" Id="UIPanelControl1Client" FriendlyName="panelControl1" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v13.1</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition>
+                        <PropertyCondition Name="Name">panelControl1</PropertyCondition>
+                        <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Custom" Id="UITxt_KH_TenKHCustom" FriendlyName="txt_KH_TenKH" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">txt_KH_TenKH</PropertyCondition>
+                            <PropertyCondition Name="ClassName">TextBox</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Edit" Id="UITxt_KH_TenKHEdit" FriendlyName="txt_KH_TenKH" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="Name">Mã Khách Hàng</PropertyCondition>
+                                <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Custom" Id="UIBackstageViewControlCustom4" FriendlyName="backstageViewControl1" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">backstageViewControl1</PropertyCondition>
+                <PropertyCondition Name="ClassName">BackstageViewControl</PropertyCondition>
+                <PropertyCondition Name="HierarchyLevel">3</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Custom" Id="UIBackstageViewClientCCustom" FriendlyName="backstageViewClientControl1" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">backstageViewClientControl1</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewClientControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Client" Id="UIPanelControl1Client" FriendlyName="panelControl1" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v13.1</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition>
+                        <PropertyCondition Name="Name">panelControl1</PropertyCondition>
+                        <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Custom" Id="UIDtp_KH_NgaySinhCustom" FriendlyName="dtp_KH_NgaySinh" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">dtp_KH_NgaySinh</PropertyCondition>
+                            <PropertyCondition Name="ClassName">DateTimePicker</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="DateTimePicker" Id="UIDtp_KH_NgaySinhDateTimePicker" FriendlyName="dtp_KH_NgaySinh" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="ControlType">DateTimePicker</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Custom" Id="UIBackstageViewControlCustom5" FriendlyName="backstageViewControl1" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">backstageViewControl1</PropertyCondition>
+                <PropertyCondition Name="ClassName">BackstageViewControl</PropertyCondition>
+                <PropertyCondition Name="HierarchyLevel">3</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Custom" Id="UIBackstageViewClientCCustom" FriendlyName="backstageViewClientControl1" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">backstageViewClientControl1</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewClientControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Client" Id="UIPanelControl1Client" FriendlyName="panelControl1" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v13.1</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition>
+                        <PropertyCondition Name="Name">panelControl1</PropertyCondition>
+                        <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Custom" Id="UICmb_KH_LoaiKHCustom" FriendlyName="cmb_KH_LoaiKH" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">cmb_KH_LoaiKH</PropertyCondition>
+                            <PropertyCondition Name="ClassName">ComboBox</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="ComboBox" Id="UILoạiKháchHàngComboBox" FriendlyName="Loại Khách Hàng" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="Name">Loại Khách Hàng</PropertyCondition>
+                                <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Custom" Id="UIBackstageViewControlCustom6" FriendlyName="backstageViewControl1" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">backstageViewControl1</PropertyCondition>
+                <PropertyCondition Name="ClassName">BackstageViewControl</PropertyCondition>
+                <PropertyCondition Name="HierarchyLevel">3</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Custom" Id="UIBackstageViewClientCCustom" FriendlyName="backstageViewClientControl1" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">backstageViewClientControl1</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewClientControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Client" Id="UIPanelControl1Client" FriendlyName="panelControl1" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v13.1</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition>
+                        <PropertyCondition Name="Name">panelControl1</PropertyCondition>
+                        <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Custom" Id="UITxt_KH_DiaChiCustom" FriendlyName="txt_KH_DiaChi" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">txt_KH_DiaChi</PropertyCondition>
+                            <PropertyCondition Name="ClassName">TextBox</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Edit" Id="UITxt_KH_DiaChiEdit" FriendlyName="txt_KH_DiaChi" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="Name">Tên Khách Hàng</PropertyCondition>
+                                <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Custom" Id="UIBackstageViewControlCustom7" FriendlyName="backstageViewControl1" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">backstageViewControl1</PropertyCondition>
+                <PropertyCondition Name="ClassName">BackstageViewControl</PropertyCondition>
+                <PropertyCondition Name="HierarchyLevel">3</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Custom" Id="UIBackstageViewClientCCustom" FriendlyName="backstageViewClientControl1" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">backstageViewClientControl1</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewClientControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Client" Id="UIPanelControl1Client" FriendlyName="panelControl1" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v13.1</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition>
+                        <PropertyCondition Name="Name">panelControl1</PropertyCondition>
+                        <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Custom" Id="UITxt_KH_SDTCustom" FriendlyName="txt_KH_SDT" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">txt_KH_SDT</PropertyCondition>
+                            <PropertyCondition Name="ClassName">TextBox</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Edit" Id="UITxt_KH_SDTEdit" FriendlyName="txt_KH_SDT" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="Name">Địa Chỉ</PropertyCondition>
+                                <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Custom" Id="UIBackstageViewControlCustom8" FriendlyName="backstageViewControl1" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">backstageViewControl1</PropertyCondition>
+                <PropertyCondition Name="ClassName">BackstageViewControl</PropertyCondition>
+                <PropertyCondition Name="HierarchyLevel">3</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Custom" Id="UIBackstageViewClientCCustom" FriendlyName="backstageViewClientControl1" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">backstageViewClientControl1</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewClientControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Client" Id="UIPanelControl1Client" FriendlyName="panelControl1" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v13.1</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition>
+                        <PropertyCondition Name="Name">panelControl1</PropertyCondition>
+                        <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Custom" Id="UITxt_KH_EmailCustom" FriendlyName="txt_KH_Email" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">txt_KH_Email</PropertyCondition>
+                            <PropertyCondition Name="ClassName">TextBox</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Edit" Id="UITxt_KH_EmailEdit" FriendlyName="txt_KH_Email" SpecialControlType="None">
+                              <TechnologyName>MSAA</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition Id="SearchCondition">
+                                <PropertyCondition Name="Name">Bạn chưa nhập tên khách hàng!</PropertyCondition>
+                                <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Custom" Id="UIBackstageViewControlCustom9" FriendlyName="backstageViewControl1" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">backstageViewControl1</PropertyCondition>
+                <PropertyCondition Name="ClassName">BackstageViewControl</PropertyCondition>
+                <PropertyCondition Name="HierarchyLevel">3</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="TabPage" Id="UILưuTabPage" FriendlyName="Lưu" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">btn_luu</PropertyCondition>
+                    <PropertyCondition Name="ClassName">BackstageViewControlItem</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Table" Id="UIGridControl1Table" FriendlyName="gridControl1" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">gridControl1</PropertyCondition>
+                <PropertyCondition Name="ClassName">GridControl</PropertyCondition>
+                <PropertyCondition Name="HierarchyLevel">3</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="RowHeader" Id="UIGridControlRowIndicaRowHeader" FriendlyName="GridControlRowIndicator" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">gridControl1GridControlRowIndicator[View]gridView1[Row]1</PropertyCondition>
+                    <PropertyCondition Name="ClassName">GridControlRowIndicator</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIThôngBáoWindow" FriendlyName="Thông Báo" SpecialControlType="None" SessionId="853472">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Thông Báo</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Thông Báo</PropertyCondition>
+            <PropertyCondition Name="ClassName">#32770</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Window" Id="UIOKWindow" FriendlyName="OK" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Thông Báo</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlId">2</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UIOKButton" FriendlyName="OK" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Thông Báo</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">OK</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UIYesWindow" FriendlyName="&amp;Yes" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Thông báo</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlId">6</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UIYesButton" FriendlyName="&amp;Yes" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Thông báo</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Yes</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UIOKWindow1" FriendlyName="OK" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Thông Báo</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlId">1</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UIOKButton" FriendlyName="OK" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Thông Báo</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">OK</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UILỗiđăngnhậpWindow" FriendlyName="Lỗi đăng nhập" SpecialControlType="None" SessionId="395102">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Lỗi đăng nhập</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Lỗi đăng nhập</PropertyCondition>
+            <PropertyCondition Name="ClassName">#32770</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Window" Id="UIOKWindow" FriendlyName="OK" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Lỗi đăng nhập</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlId">2</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UIOKButton" FriendlyName="OK" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Lỗi đăng nhập</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">OK</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIOKWindow" FriendlyName="OK" SpecialControlType="None" SessionId="133096">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>OK</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">OK</PropertyCondition>
+            <PropertyCondition Name="ClassName">Button</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Button" Id="UIOKButton" FriendlyName="OK" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>OK</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="Name">OK</PropertyCondition>
+                <PropertyCondition Name="ControlType">Button</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants />
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIPanelControlWindow" FriendlyName="panelControl" SpecialControlType="None" SessionId="1115610">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles />
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="AccessibleName">Xin chào Nguyễn Vũ Xuân Thu</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Custom" Id="UIPanelControlCustom" FriendlyName="panelControl" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">panelControl</PropertyCondition>
+                <PropertyCondition Name="ClassName">Panel</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Window" Id="UICbmathangWindow" FriendlyName="cbmathang" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlName">cbmathang</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="ComboBox" Id="UICbmathangComboBox" FriendlyName="cbmathang" SpecialControlType="None">
+                      <TechnologyName>MSAA</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition Id="SearchCondition">
+                        <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Window" Id="UICbTenNCCWindow" FriendlyName="cbTenNCC" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlName">cbTenNCC</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="ComboBox" Id="UIHgfComboBox" FriendlyName="hgf" SpecialControlType="None">
+                      <TechnologyName>MSAA</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition Id="SearchCondition">
+                        <PropertyCondition Name="Name">hgf</PropertyCondition>
+                        <PropertyCondition Name="ControlType">ComboBox</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Window" Id="UITxtSoLuongWindow" FriendlyName="txtSoLuong" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlName">txtSoLuong</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Edit" Id="UITxtSoLuongEdit" FriendlyName="txtSoLuong" SpecialControlType="None">
+                      <TechnologyName>MSAA</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition Id="SearchCondition">
+                        <PropertyCondition Name="Name">Số Lượng</PropertyCondition>
+                        <PropertyCondition Name="ControlType">Edit</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Window" Id="UIThêmWindow" FriendlyName="Thêm" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlName">btnThemMH</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Button" Id="UIThêmButton" FriendlyName="Thêm" SpecialControlType="None">
+                      <TechnologyName>MSAA</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition Id="SearchCondition">
+                        <PropertyCondition Name="Name">Thêm</PropertyCondition>
+                        <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Group" Id="UINhậpmặthàngGroup" FriendlyName="Nhập mặt hàng" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Nhập mặt hàng</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Group</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Window" Id="UITxtSoLuongWindow" FriendlyName="txtSoLuong" SpecialControlType="None">
+                      <TechnologyName>MSAA</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition Id="SearchCondition">
+                        <PropertyCondition Name="AccessibleName">Số Lượng</PropertyCondition>
+                        <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.EDIT</PropertyCondition>
+                        <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Window" Id="UILưuWindow" FriendlyName="Lưu" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlName">btnLuu</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Button" Id="UILưuButton" FriendlyName="Lưu" SpecialControlType="None">
+                      <TechnologyName>MSAA</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition Id="SearchCondition">
+                        <PropertyCondition Name="Name">Lưu</PropertyCondition>
+                        <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Window" Id="UIThoátWindow" FriendlyName="Thoát" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlName">btnThoat</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Button" Id="UIThoátButton" FriendlyName="Thoát" SpecialControlType="None">
+                      <TechnologyName>MSAA</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition Id="SearchCondition">
+                        <PropertyCondition Name="Name">Thoát</PropertyCondition>
+                        <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Window" Id="UIInPhiếuNhậpWindow" FriendlyName="In Phiếu Nhập" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlName">btnIn</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Button" Id="UIInPhiếuNhậpButton" FriendlyName="In Phiếu Nhập" SpecialControlType="None">
+                      <TechnologyName>MSAA</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition Id="SearchCondition">
+                        <PropertyCondition Name="Name">In Phiếu Nhập</PropertyCondition>
+                        <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+                <UIObject ControlType="Window" Id="UITimPhieuNhapHangWindow" FriendlyName="TimPhieuNhapHang" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="ControlName">TimPhieuNhapHang</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Window</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Client" Id="UIXinchàoNguyễnVũXuânTClient" FriendlyName="Xin chào Nguyễn Vũ Xuân Thu" SpecialControlType="None">
+                      <TechnologyName>MSAA</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition Id="SearchCondition">
+                        <PropertyCondition Name="Name">Xin chào Nguyễn Vũ Xuân Thu</PropertyCondition>
+                        <PropertyCondition Name="ControlType">Client</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIFrmReportWindow" FriendlyName="frmReport" SpecialControlType="None" SessionId="265120">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles />
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="DockPanel" Id="UIDockPanelDockPanel" FriendlyName="DockPanel" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">DockPanel[0]</PropertyCondition>
+                <PropertyCondition Name="ClassName">DockPanel</PropertyCondition>
+                <PropertyCondition Name="HierarchyLevel">2</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Custom" Id="UIDockPanel1_ContainerCustom" FriendlyName="dockPanel1_Container" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">dockPanel1_Container</PropertyCondition>
+                    <PropertyCondition Name="ClassName">ControlContainer</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="Custom" Id="UIPanelParametersContrCustom" FriendlyName="PanelParametersControl" SpecialControlType="None">
+                      <TechnologyName>DevExpress.v13.1</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition>
+                        <PropertyCondition Name="Name">dockPanel1_ContainerPanelParametersControl[0]</PropertyCondition>
+                        <PropertyCondition Name="ClassName">PanelParametersControl</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="Client" Id="UIPanelControlClient" FriendlyName="PanelControl" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">dockPanel1_ContainerPanelParametersControl[0]PanelControl[0]</PropertyCondition>
+                            <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="LookUpEdit" Id="UILookUpEditLookUpEdit" FriendlyName="LookUpEdit" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v13.1</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition>
+                                <PropertyCondition Name="Name">dockPanel1_ContainerPanelParametersControl[0]PanelControl[0]LookUpEdit[0]</PropertyCondition>
+                                <PropertyCondition Name="ClassName">LookUpEdit</PropertyCondition>
+                                <PropertyCondition Name="HierarchyLevel">3</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                        <UIObject ControlType="Client" Id="UIPanelControlClient1" FriendlyName="PanelControl" SpecialControlType="None">
+                          <TechnologyName>DevExpress.v13.1</TechnologyName>
+                          <WindowTitles />
+                          <AndCondition>
+                            <PropertyCondition Name="Name">dockPanel1_ContainerPanelParametersControl[0]PanelControl[1]</PropertyCondition>
+                            <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants>
+                            <UIObject ControlType="Button" Id="UISubmitButton" FriendlyName="Submit" SpecialControlType="None">
+                              <TechnologyName>DevExpress.v13.1</TechnologyName>
+                              <WindowTitles />
+                              <AndCondition>
+                                <PropertyCondition Name="Name">dockPanel1_ContainerPanelParametersControl[0]PanelControl[1]SimpleButton[0]</PropertyCondition>
+                                <PropertyCondition Name="ClassName">SimpleButton</PropertyCondition>
+                              </AndCondition>
+                              <SupportLevel>0</SupportLevel>
+                              <Descendants />
+                            </UIObject>
+                          </Descendants>
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Custom" Id="UIBarDockControlCustom" FriendlyName="BarDockControl" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">BarDockControl[3]</PropertyCondition>
+                <PropertyCondition Name="ClassName">BarDockControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="MenuBar" Id="UIToolbarMenuBar" FriendlyName="Toolbar" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">Toolbar</PropertyCondition>
+                    <PropertyCondition Name="ClassName">DockedBarControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="BarBaseButtonItem" Id="UIExportDocumentBarBaseButtonItem" FriendlyName="Export Document..." SpecialControlType="None">
+                      <TechnologyName>DevExpress.v13.1</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition>
+                        <PropertyCondition Name="Name">printPreviewBarItem24</PropertyCondition>
+                        <PropertyCondition Name="ClassName">BarBaseButtonItem</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIFrmReportWindow1" FriendlyName="frmReport" SpecialControlType="None" SessionId="265120">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles />
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+            <PropertyCondition Name="Instance">2</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Custom" Id="UIBarDockControlCustom" FriendlyName="BarDockControl" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">BarDockControl[3]</PropertyCondition>
+                <PropertyCondition Name="ClassName">BarDockControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="MenuBar" Id="UIToolbarMenuBar" FriendlyName="Toolbar" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">Toolbar</PropertyCondition>
+                    <PropertyCondition Name="ClassName">DockedBarControl</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="BarBaseButtonItem" Id="UIExportDocumentBarBaseButtonItem" FriendlyName="Export Document..." SpecialControlType="None">
+                      <TechnologyName>DevExpress.v13.1</TechnologyName>
+                      <WindowTitles />
+                      <AndCondition>
+                        <PropertyCondition Name="Name">printPreviewBarItem24</PropertyCondition>
+                        <PropertyCondition Name="ClassName">BarBaseButtonItem</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants />
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIItemWindow" FriendlyName="" SpecialControlType="None" SessionId="199612">
+          <TechnologyName>DevExpress.v13.1</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>PDF Export Options</WindowTitle>
+          </WindowTitles>
+          <AndCondition>
+            <PropertyCondition Name="Name">PDF Export Options</PropertyCondition>
+            <PropertyCondition Name="ClassName" Operator="Contains">WindowsForms10.Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Client" Id="UIPanelControlClient" FriendlyName="PanelControl" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>PDF Export Options</WindowTitle>
+              </WindowTitles>
+              <AndCondition>
+                <PropertyCondition Name="Name">pnlButtons</PropertyCondition>
+                <PropertyCondition Name="ClassName">PanelControl</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UISimpleButtonButton" FriendlyName="SimpleButton" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>PDF Export Options</WindowTitle>
+                  </WindowTitles>
+                  <AndCondition>
+                    <PropertyCondition Name="Name">btnOK</PropertyCondition>
+                    <PropertyCondition Name="ClassName">SimpleButton</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UISaveAsWindow1" FriendlyName="Save As" SpecialControlType="None" SessionId="265148">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles>
+            <WindowTitle>Save As</WindowTitle>
+          </WindowTitles>
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="Name">Save As</PropertyCondition>
+            <PropertyCondition Name="ClassName">#32770</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Window" Id="UITreeViewWindow" FriendlyName="Tree View" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Save As</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlId">100</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Tree" Id="UITreeViewTree" FriendlyName="Tree View" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Save As</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Namespace Tree Control</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Tree</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants>
+                    <UIObject ControlType="TreeItem" Id="UIFavoritesTreeItem" FriendlyName="Favorites" SpecialControlType="None">
+                      <TechnologyName>MSAA</TechnologyName>
+                      <WindowTitles>
+                        <WindowTitle>Save As</WindowTitle>
+                      </WindowTitles>
+                      <SearchConfigurations>
+                        <SearchConfiguration>Expand</SearchConfiguration>
+                      </SearchConfigurations>
+                      <AndCondition Id="SearchCondition">
+                        <PropertyCondition Name="Name">Favorites</PropertyCondition>
+                        <PropertyCondition Name="Value">0</PropertyCondition>
+                        <PropertyCondition Name="ControlType">TreeItem</PropertyCondition>
+                      </AndCondition>
+                      <SupportLevel>0</SupportLevel>
+                      <Descendants>
+                        <UIObject ControlType="TreeItem" Id="UIDesktopTreeItem" FriendlyName="Desktop" SpecialControlType="None">
+                          <TechnologyName>MSAA</TechnologyName>
+                          <WindowTitles>
+                            <WindowTitle>Save As</WindowTitle>
+                          </WindowTitles>
+                          <SearchConfigurations>
+                            <SearchConfiguration>NextTo</SearchConfiguration>
+                            <SearchConfiguration>Expand</SearchConfiguration>
+                          </SearchConfigurations>
+                          <AndCondition Id="SearchCondition">
+                            <PropertyCondition Name="Name">Desktop</PropertyCondition>
+                            <PropertyCondition Name="Value">1</PropertyCondition>
+                            <PropertyCondition Name="ControlType">TreeItem</PropertyCondition>
+                          </AndCondition>
+                          <SupportLevel>0</SupportLevel>
+                          <Descendants />
+                        </UIObject>
+                      </Descendants>
+                    </UIObject>
+                  </Descendants>
+                </UIObject>
+              </Descendants>
+            </UIObject>
+            <UIObject ControlType="Window" Id="UISaveWindow" FriendlyName="&amp;Save" SpecialControlType="None">
+              <TechnologyName>MSAA</TechnologyName>
+              <WindowTitles>
+                <WindowTitle>Save As</WindowTitle>
+              </WindowTitles>
+              <SearchConfigurations>
+                <SearchConfiguration>VisibleOnly</SearchConfiguration>
+              </SearchConfigurations>
+              <AndCondition Id="SearchCondition">
+                <PropertyCondition Name="ControlId">1</PropertyCondition>
+                <PropertyCondition Name="ControlType">Window</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UISaveButton" FriendlyName="&amp;Save" SpecialControlType="None">
+                  <TechnologyName>MSAA</TechnologyName>
+                  <WindowTitles>
+                    <WindowTitle>Save As</WindowTitle>
+                  </WindowTitles>
+                  <SearchConfigurations>
+                    <SearchConfiguration>VisibleOnly</SearchConfiguration>
+                  </SearchConfigurations>
+                  <AndCondition Id="SearchCondition">
+                    <PropertyCondition Name="Name">Save</PropertyCondition>
+                    <PropertyCondition Name="ControlType">Button</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+        <TopLevelWindow ControlType="Window" Id="UIItemWindow1" FriendlyName="" SpecialControlType="None" SessionId="65552">
+          <TechnologyName>MSAA</TechnologyName>
+          <WindowTitles />
+          <SearchConfigurations>
+            <SearchConfiguration>VisibleOnly</SearchConfiguration>
+          </SearchConfigurations>
+          <AndCondition Id="SearchCondition">
+            <PropertyCondition Name="AccessibleName">Desktop</PropertyCondition>
+            <PropertyCondition Name="ClassName">#32769</PropertyCondition>
+            <PropertyCondition Name="ControlType">Window</PropertyCondition>
+          </AndCondition>
+          <SupportLevel>0</SupportLevel>
+          <Descendants>
+            <UIObject ControlType="Window" Id="UIExportWindow" FriendlyName="Export" SpecialControlType="None">
+              <TechnologyName>DevExpress.v13.1</TechnologyName>
+              <WindowTitles />
+              <AndCondition>
+                <PropertyCondition Name="Name">Export</PropertyCondition>
+                <PropertyCondition Name="ClassName">XtraMessageBoxForm</PropertyCondition>
+              </AndCondition>
+              <SupportLevel>0</SupportLevel>
+              <Descendants>
+                <UIObject ControlType="Button" Id="UISimpleButtonButton" FriendlyName="SimpleButton" SpecialControlType="None">
+                  <TechnologyName>DevExpress.v13.1</TechnologyName>
+                  <WindowTitles />
+                  <AndCondition>
+                    <PropertyCondition Name="Name">ExportSimpleButton[0]</PropertyCondition>
+                    <PropertyCondition Name="ClassName">SimpleButton</PropertyCondition>
+                  </AndCondition>
+                  <SupportLevel>0</SupportLevel>
+                  <Descendants />
+                </UIObject>
+              </Descendants>
+            </UIObject>
+          </Descendants>
+        </TopLevelWindow>
+      </TopLevelWindows>
+    </UIMap>
+  </Maps>
+  <ValueMap>
+    <ParameterList />
+  </ValueMap>
+</UITest>

@@ -1,0 +1,7 @@
+C:\Users\Dell\Desktop\project\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Desktop\project\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\Dell\Desktop\project\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\Dell\Desktop\project\UnitTest\bin\Debug\QuanLySieuThiDienThoai.exe
+C:\Users\Dell\Desktop\project\UnitTest\bin\Debug\QuanLySieuThiDienThoai.pdb
+C:\Users\Dell\Desktop\project\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\Dell\Desktop\project\UnitTest\obj\Debug\UnitTest.pdb
